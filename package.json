@@ -1,0 +1,25 @@
+{
+  "name": "docker-https-redirector",
+  "version": "1.0.0",
+  "description": "simple server for http to https redirection",
+  "main": "index.js",
+  "scripts": {
+    "start": "DEBUG=https-redirector node index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aaronVerones/docker-https-redirector.git"
+  },
+  "author": "Aaron Verones",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aaronVerones/docker-https-redirector/issues"
+  },
+  "homepage": "https://github.com/aaronVerones/docker-https-redirector#readme",
+  "dependencies": {
+    "debug": "^3.1.0",
+    "express": "^4.16.3",
+    "http-to-https": "^1.0.1"
+  }
+}
