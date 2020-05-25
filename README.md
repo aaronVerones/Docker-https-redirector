@@ -1,6 +1,6 @@
 # https-redirector
 Simple Node server that redirects any HTTP request to HTTPS.
-Especially useful for a multi-tenant system behind an AWS Elastic Load Balancer.
+Especially useful for single-tenant applications with multiple systems behind a Load Balancer.
 
 ### Quickstart
 command: 
