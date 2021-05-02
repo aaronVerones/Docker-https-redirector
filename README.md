@@ -1,6 +1,5 @@
 # https-redirector
-Simple Node server that redirects any HTTP request to HTTPS.
-Especially useful for single-tenant applications with multiple systems behind a Load Balancer.
+Simple Node server that redirects any HTTP request to HTTPS. Typically, you would want to implement HTTP-to-HTTPS redirection at the infrastructure level such as in your routing or load balancing. However, for workflows where this is not applicable (or for simple testing/mocking purposes), this might be helpful.
 
 ### Quickstart
 command: 
