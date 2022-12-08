@@ -19,7 +19,7 @@
   "homepage": "https://github.com/aaronVerones/docker-https-redirector#readme",
   "dependencies": {
     "debug": "^3.1.0",
-    "express": "^4.16.3",
+    "express": "^4.17.3",
     "http-to-https": "^1.0.1"
   }
 }
